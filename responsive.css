@@ -1,0 +1,152 @@
+@media only screen and (max-width: 600px) {
+  /* this for from  */
+  body {
+    background-image: url("Asists/Login bg/mobile.jpeg");
+    /* overflow: hidden; */
+  }
+  .loginBox {
+    width: 90%;
+    height: 90%;
+    display: flex;
+  }
+  .loginBox h1 {
+    font-size: 70px;
+    margin-top: 100px;
+  }
+  form {
+    display: flex;
+    gap: 40px;
+  }
+  .in {
+    height: 70px;
+  }
+  button {
+    height: 70px;
+    width: 150px;
+  }
+  /* loader  */
+  .load {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: -50%, -50%;
+  }
+}
+
+/* portfolio */
+@media only screen and (max-width: 1100px) {
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    display: none;
+  }
+  .left {
+    height: 35%;
+    width: 100%;
+    position: relative;
+  }
+
+  .profile {
+    top: 25%;
+    left: 50%;
+    height: 270px;
+    width: 280px;
+  }
+  .profile2 {
+    height: 250px;
+    width: 260px;
+    border: 20px solid #fcfcfc;
+    background-color: aqua;
+  }
+  .profile3 {
+    height: 210px;
+    width: 220px;
+  }
+  .nav {
+    position: absolute;
+    top: -240px;
+    left: 0;
+    height: 57px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    align-items: center;
+  }
+  #darkBtn {
+    background-color: transparent;
+  }
+  .home {
+    display: none;
+  }
+  .about {
+    display: none;
+  }
+  .porti {
+    display: none;
+  }
+  .color {
+    display: none;
+  }
+  #userhead {
+    display: none;
+  }
+  .right {
+    width: 100%;
+    height: 80%;
+  }
+  .info {
+    width: 100vw;
+    position: relative;
+    left: 0;
+    /* border: 2px solid black; */
+    height: 60%;
+    gap: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+  .infoleft {
+    width: 100vw;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inforight {
+    display: none;
+  }
+  .ham {
+    display: block;
+    height: 90%;
+    width: 120px;
+    background-color: transparent;
+  }
+  .ham img {
+    height: 70%;
+    /* display: none; */
+    display: inline-block;
+  }
+  .sec4lowers .profile {
+    top: 35%;
+    left: 50%;
+    transform: translate(0 -50%);
+  }
+  .sec4userinfo {
+    top: 50%;
+    left: 0;
+  }
+  .name {
+    width: 100vw;
+    text-align: center;
+  }
+  .sec4skills {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+  .skillinfo {
+    width: 60%;
+    text-align: center;
+  }
+}
